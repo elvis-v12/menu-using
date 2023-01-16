@@ -13,7 +13,6 @@ body{
 .main{
     position: relative;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 170px;
@@ -61,7 +60,7 @@ body{
        color: #2dfc52;
        filter: drop-shadow(0 0 2px #2dfc52 ) drop-shadow(0 0 5px #2dfc52) drop-shadow(0 0 15px #2dfc52);
 }
-.close{
+.close {
     position: absolute;
     width: 7px;
     height: 7px;
@@ -83,7 +82,7 @@ body{
 .main .navigation ~ .close ion-icon{
     font-size: 2em;
      scale: 0;
-     color:#10131c;
+     color:#000;
      transition: 0.5s;
 }
 
